@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+* {
+    font-family: 'Tektur', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 3px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.image:hover {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+}
+
+.image > .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.profile-card {
+    max-width: 370px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card > .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text > .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text > .job {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card > .button {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.button > .link {
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    font-size: 18px;
+    margin: 0 8px;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    font-size: 23px;
+    color: khaki;
+}
+
+.profile-card > .contact {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.contact > .node {
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: azure;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.node:hover {
+    background-color: cadetblue;
+    font-size: 16px;
+    color:khaki;
+}

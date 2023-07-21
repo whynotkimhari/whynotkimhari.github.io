@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
-
+/* font */
 * {
   margin: 0;
   padding: 0;
   font-family: "Tektur", cursive;
 }
-
+/* header */
 .header {
   min-height: 100vh;
   width: 100%;
@@ -105,6 +105,7 @@ nav .bx {
   display: none;
 }
 
+/* media */
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
@@ -143,13 +144,7 @@ nav .bx {
   }
 }
 
-.greetings {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 25px;
-}
-
+/* common */
 h1 {
   font-size: 36px;
   font-weight: 600;
@@ -158,13 +153,6 @@ h1 {
 h2 {
   font-size: 25px;
   font-weight: 450;
-}
-
-.logo_at_greetings {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100px;
-  height: 100px;
 }
 
 p {
@@ -178,15 +166,6 @@ p {
   display: flex;
   margin-top: 5px;
   justify-content: space-between;
-}
-
-.greetings-col {
-  flex-basis: 31%;
-  background: azure;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
 }
 
 h3 {
@@ -204,16 +183,33 @@ h3 {
   padding-top: 50px;
 }
 
+/* .greetings */
+.greetings {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.logo_at_greetings {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+.greetings-col {
+  flex-basis: 31%;
+  background: azure;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+/* .universities */
 .universities {
   background-color: azure;
-}
-
-.scholarships {
-  background-color: whitesmoke;
-}
-
-.works {
-    background-color: azure;
 }
 
 .universities-col {
@@ -245,6 +241,7 @@ h3 {
   color: white;
 }
 
+/* scholarships section */
 .sch-row h2,
 .sch-row h3,
 .sch-row p {
@@ -316,11 +313,32 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+/* works section */
+.works {
+  background-color: azure;
+}
+
 .works .row {
-  display: block;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.works-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin: 30px 90px;
+  position: relative;
+  overflow: hidden;
   text-align: left;
 }
 
+.works-col img {
+  width: 100%;
+  display: block;
+}
+
+/* footer section */
 .footer {
     width: 100%;
     text-align: center;
@@ -342,4 +360,62 @@ h3 {
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+/* GROUP-HEADER */
+.group-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/hssvvh.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.group-body {
+  width: 90%;
+  margin: auto;
+}
+
+.group-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.group-col h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.group-col div {
+  margin: 20px;
+}
+
+.g2 {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+}
+
+.g2 .row {
+  display: block;
+  margin: 50px;
+}
+
+.g2 .row h3 {
+  text-align: left;
+  font-weight: 800;
+}
+
+.g2-t1 {
+  display: flex;
+}
+
+.g2-t1 p {
+  margin: 70px;
+  font-weight: 550;
+  font-size: 18px;
 }

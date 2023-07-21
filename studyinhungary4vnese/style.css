@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Tektur&display=swap');
+
 /* font */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Tektur", cursive;
+  font-family: 'Roboto Slab', serif;
 }
+
 /* header */
 .header {
   min-height: 100vh;
@@ -348,7 +350,7 @@ h3 {
 }
 
 .footer .foot-col {
-  margin: 0 15px;
+  margin: 0 8px;
 }
 
 .footer h4 {
@@ -377,6 +379,11 @@ h3 {
   background-size: cover;
   text-align: center;
   color: white;
+}
+
+.group-header h1 {
+  font-size: 62px;
+  margin-top: 180px;
 }
 
 .group-body {
@@ -424,4 +431,62 @@ h3 {
   margin: 70px;
   font-weight: 550;
   font-size: 18px;
+}
+
+/* sharing */
+.sharing-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/sharing.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.sharing-header h1 {
+  font-size: 62px;
+  margin-top: 150px;
+}
+
+
+
+
+
+
+/* study */
+.study-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/study.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.study-header h1 {
+  font-size: 62px;
+  margin-top: 150px;
+}
+
+
+
+
+
+
+/* culture */
+.culture-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/culture.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.culture-header h1 {
+  font-size: 62px;
+  margin-top: 150px;
 }

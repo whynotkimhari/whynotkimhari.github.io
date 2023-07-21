@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cẩm nang Du học Hungary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="png/logo.png" type="image/x-icon" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <!---HEADER-->
+    <section class="culture-header">
+      <nav>
+        <a href="index.html"><img src="png/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bx bx-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="culture.html">VĂN HOÁ HUNGARY</a></li>
+            <li><a href="group.html">HỘI ĐOÀN SINH VIÊN</a></li>
+            <li><a href="study.html">DU HỌC HUNGARY</a></li>
+            <li><a href="sharing.html">GÓC CHIA SẺ</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1Ke4uRnaxtGD3pHgfq1Lp-Q_0hJNlcsed/view?fbclid=IwAR2UEiYx2J8PSwzhaWVi1PMsdhURgDdocJhUoWDZ-Ax2HHWrrVhLzkOyp3s"
+                target="_blank"
+                >CẨM NANG PDF</a
+              >
+            </li>
+          </ul>
+        </div>
+        <i class="bx bx-menu" onclick="unhideMenu()"></i>
+      </nav>
+
+      <h1>VĂN HOÁ HUNGARY</h1>
+      <p>
+        Văn hoá và cuộc sống tại Hungary
+      </p>
+    </section>
+
+    <!---FOOTER-->
+    <section class="footer">
+      <div class="row">
+        <div class="foot-col">
+          <h4>CHỈ ĐẠO THỰC HIỆN</h4>
+          <p>
+            BCH HỘI SINH VIÊN VIỆT NAM TẠI HUNGARY <br />
+            KHOÁ 4 (nhiệm kì 2021-2023)
+          </p>
+        </div>
+
+        <div class="foot-col">
+          <h4>BAN BIÊN TẬP</h4>
+          <p>
+            VŨ NGỌC HÀ VI - TỔNG BIÊN <br />
+            NGUYỄN NHƯ TIẾN - PHÓ BIÊN <br />
+            NGUYỄN KHÁNH DUY THỊNH <br />
+            ĐỖ THỊ HUYỀN TRANG <br />
+            HOÀNG NGUYÊN KHÁNH AN <br />
+            LÃ THU TRANG
+          </p>
+        </div>
+
+        <div class="foot-col">
+          <h4>Visit Us</h4>
+          <p>Visit Facebook hsvviethung and our group!</p>
+          <div class="icons">
+            <a href="https://www.facebook.com/hssvviethung" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/groups/hsvviethung"
+              target="_blank"
+              ><i class="bx bxs-group"></i
+            ></a>
+          </div>
+          <p>
+            Made with luv by
+            <a
+              href="https://github.com/whynotkimhari"
+              target="_blank"
+              style="text-decoration: none; color: black"
+              >whynotkimhari <i class="bx bxl-github"></i
+            ></a>
+          </p>
+        </div>
+
+        <div class="foot-col">
+          <h4>BIÊN SOẠN NỘI DUNG</h4>
+          <p>
+            BCH HSV VN TẠI HUNGARY KHOÁ 2021-2023 <br />
+            THÀNH VIÊN CÙNG CÁC BẠN, CÁC CHI HỘI SINH VIÊN <br />
+            CÙNG CỘNG TÁC VIÊN
+          </p>
+        </div>
+
+        <div class="foot-col">
+          <h4>TRÌNH BÀY NỘI DUNG</h4>
+          <p>
+            LÝ QUỐC THÁI <br />
+            TRẦN VĂN TOÀN <br />
+            HỒ HẠNH NGUYÊN
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---SCRIPTS-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function unhideMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

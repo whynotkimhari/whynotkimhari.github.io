@@ -212,6 +212,7 @@ h3 {
 /* .universities */
 .universities {
   background-color: azure;
+  border-radius: 20px;
 }
 
 .universities-col {
@@ -318,6 +319,7 @@ h3 {
 /* works section */
 .works {
   background-color: azure;
+  border-radius: 20px;
 }
 
 .works .row {
@@ -489,4 +491,32 @@ h3 {
 .culture-header h1 {
   font-size: 62px;
   margin-top: 150px;
+}
+
+.culture-body {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 20px;
+  background-color:white;
+  border-radius: 20px;
+}
+
+.culture-body h1 {
+  margin-top: 50px;
+}
+
+.culture-col {
+  flex-basis: 45%;
+  padding: 30px 2px;
+}
+
+.culture-col img {
+  width: 80%;
+  display: block;
+  border-radius: 20px;
+}
+
+.culture-body ul {
+  margin-left: 50px;
 }

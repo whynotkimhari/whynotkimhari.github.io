@@ -472,9 +472,51 @@ h3 {
   margin-top: 150px;
 }
 
+.visa {
+  width: 80%;
+  margin: auto;
+}
 
+.visa h1 {
+  text-align: center;
+  margin: 50px;
+  color: coral;
+  background-color: lightblue;
+}
 
+.visa h2 {
+  color: red;
+  margin-top: 50px;
+}
 
+.visa ol li, .visa ul li  {
+  margin: 5px 0;
+}
+
+.visa ol li ul {
+  margin-left: 12px;
+}
+
+.visa form label {
+  margin: 10px;
+}
+
+.visa form label i {
+  font-weight: 100;
+}
+
+.visa form h3 {
+  text-align: left;
+  color: blue;
+}
+
+.visa input {
+  margin: 6px;
+}
+
+.study-bar a {
+  margin: 30px 30px;
+}
 
 
 /* culture */

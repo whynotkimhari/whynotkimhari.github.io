@@ -618,6 +618,8 @@ h3 {
   border-radius: 20px;
 }
 
+/* step */
+
 .step {
   width: 80%;
   margin: auto;
@@ -647,6 +649,7 @@ h3 {
   margin: 10px 0;
   margin-left: 25px;
 }
+
 .step-col {
   flex-basis: 40%;
   margin: auto;
@@ -658,6 +661,104 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+/* travel */
+.travel {
+  width: 80%;
+  margin: auto;
+}
+
+.travel h1 {
+  text-align: center;
+  color: #2596be;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.s {
+  margin-left: 62px;
+}
+
+.travel h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.travel-col {
+  flex-basis: 40%;
+  margin: auto;
+}
+
+.travel-col img, .travel img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.travel ul {
+  margin-left: 120px;
+}
+
+/* step2 */
+.step2 {
+  width: 80%;
+  margin: auto;
+}
+
+.step2 h1 {
+  text-align: center;
+  color: #28362f;
+  background-color: #fbe68b;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.step2 h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.step2-col {
+  flex-basis: 40%;
+  margin: auto;
+}
+
+
+.step2-col img, .step2 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.step2-col ul {
+  margin-left: 40px;
+}
+
+.step2 > ul {
+  margin-left: 100px;
+}
+
+.step2 ul li {
+  margin: 10px 0;
+}
+
+.step2 ul li ol {
+  margin-left: 20px;
+}
+
+.w {
+  text-align: center;
 }
 
 /* culture */

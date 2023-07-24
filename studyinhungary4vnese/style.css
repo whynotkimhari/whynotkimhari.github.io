@@ -618,6 +618,48 @@ h3 {
   border-radius: 20px;
 }
 
+.step {
+  width: 80%;
+  margin: auto;
+}
+
+.step h1 {
+  text-align: center;
+  background-color: #ffbc14;
+  color: #fdfbea;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.step h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.step ul {
+  margin-bottom: 30px;
+}
+
+.step ul li {
+  margin: 10px 0;
+  margin-left: 25px;
+}
+.step-col {
+  flex-basis: 40%;
+  margin: auto;
+}
+
+.step-col img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 /* culture */
 .culture-header {
   height: 100vh;

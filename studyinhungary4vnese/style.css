@@ -488,6 +488,10 @@ h3 {
   margin-top: 50px;
 }
 
+.visa ol, .visa ul {
+  margin-left: 30px;
+}
+
 .visa ol li, .visa ul li  {
   margin: 5px 0;
 }
@@ -591,7 +595,7 @@ h3 {
 }
 
 .go ul {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .go ul li {
@@ -791,6 +795,9 @@ h3 {
 
 .culture-body h1 {
   margin-top: 50px;
+  background-image: linear-gradient(to top, #016001, #e4e4e4, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .culture-col {

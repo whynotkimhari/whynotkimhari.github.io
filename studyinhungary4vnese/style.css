@@ -100,7 +100,7 @@ nav img {
   border: 1px solid aquamarine;
   background-color: aquamarine;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 nav .bx {
@@ -183,6 +183,12 @@ h3 {
   margin: auto;
   text-align: center;
   padding-top: 50px;
+}
+
+.visa, .accommodation, .go, .step, .travel, .step2, .live {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
 }
 
 /* .greetings */
@@ -454,8 +460,6 @@ h3 {
 
 
 
-
-
 /* study */
 .study-header {
   height: 100vh;
@@ -470,11 +474,6 @@ h3 {
 .study-header h1 {
   font-size: 62px;
   margin-top: 150px;
-}
-
-.visa {
-  width: 80%;
-  margin: auto;
 }
 
 .visa h1 {
@@ -519,10 +518,6 @@ h3 {
 }
 
 /* accommodation */
-.accommodation {
-  width: 80%;
-  margin: auto;
-}
 
 .accommodation h1 {
   margin-top: 100px;
@@ -571,11 +566,6 @@ h3 {
 }
 
 /* go */
-.go {
-  width: 80%;
-  margin: auto;
-}
-
 .go img {
   display: block;
   margin-bottom: 50px;
@@ -619,13 +609,7 @@ h3 {
 }
 
 /* step */
-
-.step {
-  width: 80%;
-  margin: auto;
-}
-
-.step h1 {
+.step h1, .travel h1, .step2 h1 {
   text-align: center;
   background-color: #ffbc14;
   color: #fdfbea;
@@ -664,18 +648,9 @@ h3 {
 }
 
 /* travel */
-.travel {
-  width: 80%;
-  margin: auto;
-}
-
 .travel h1 {
-  text-align: center;
   color: #2596be;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
-  margin-top: 50px;
+  background-color: white;
 }
 
 .s {
@@ -706,19 +681,9 @@ h3 {
 }
 
 /* step2 */
-.step2 {
-  width: 80%;
-  margin: auto;
-}
-
 .step2 h1 {
-  text-align: center;
   color: #28362f;
   background-color: #fbe68b;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
-  margin-top: 50px;
 }
 
 .step2 h2 {
@@ -731,7 +696,6 @@ h3 {
   flex-basis: 40%;
   margin: auto;
 }
-
 
 .step2-col img, .step2 img {
   width: 50%;
@@ -760,6 +724,45 @@ h3 {
 .w {
   text-align: center;
 }
+
+/* live */
+.live h1 {
+  color: #4f8092;
+  background-color: #e8f4fc;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.live h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.live-col {
+  flex-basis: 40%;
+  margin: auto;
+}
+
+.live-col img, .live img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.live > ul {
+  margin-left: 60px;
+}
+
+.live > ul li {
+  margin: 10px 0;
+}
+
 
 /* culture */
 .culture-header {

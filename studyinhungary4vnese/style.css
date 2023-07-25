@@ -784,6 +784,16 @@ h3 {
   margin-left: 20px;
 }
 
+.live h3 {
+  text-align: left;
+  font-weight: 700;
+}
+
+.othersVehicle h1 {
+  color: #fafefb;
+  background-color: #75d482;
+}
+
 /* culture */
 .culture-header {
   height: 100vh;

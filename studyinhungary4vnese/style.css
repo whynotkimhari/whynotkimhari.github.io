@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Tektur&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Tektur&display=swap");
 
 /* font */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /* header */
@@ -185,7 +185,13 @@ h3 {
   padding-top: 50px;
 }
 
-.visa, .accommodation, .go, .step, .travel, .step2, .live {
+.visa,
+.accommodation,
+.go,
+.step,
+.travel,
+.step2,
+.live {
   width: 80%;
   margin: auto;
   margin-top: 100px;
@@ -350,11 +356,25 @@ h3 {
 
 /* footer section */
 .footer {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    background-image: linear-gradient(to right top, #a6a6a6, #acacac, #b2b2b3, #b9b9b9, #bfbfc0, #c4c4c6, #c8c9cb, #ccced1, #cfd3d7, #d2d9db, #d6dfe0, #dae4e3);
-    margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background-image: linear-gradient(
+    to right top,
+    #a6a6a6,
+    #acacac,
+    #b2b2b3,
+    #b9b9b9,
+    #bfbfc0,
+    #c4c4c6,
+    #c8c9cb,
+    #ccced1,
+    #cfd3d7,
+    #d2d9db,
+    #d6dfe0,
+    #dae4e3
+  );
+  margin-top: 100px;
 }
 
 .footer .foot-col {
@@ -362,27 +382,28 @@ h3 {
 }
 
 .footer h4 {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
 }
 
 .footer p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .icons .bx {
-    color: red;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
+  color: red;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
 }
 
 /* GROUP-HEADER */
 .group-header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/hssvvh.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(png/hssvvh.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -445,7 +466,8 @@ h3 {
 .sharing-header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/sharing.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(png/sharing.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -457,14 +479,25 @@ h3 {
   margin-top: 150px;
 }
 
+.sharing-body {
+  width: 80%;
+  margin: auto;
+}
 
+.comment {
+  margin-top: 100px;
+}
 
+.sharing-body .comment h4, .sub {
+  text-align: right;
+}
 
 /* study */
 .study-header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/study.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(png/study.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -488,11 +521,13 @@ h3 {
   margin-top: 50px;
 }
 
-.visa ol, .visa ul {
+.visa ol,
+.visa ul {
   margin-left: 30px;
 }
 
-.visa ol li, .visa ul li  {
+.visa ol li,
+.visa ul li {
   margin: 5px 0;
 }
 
@@ -540,7 +575,7 @@ h3 {
 
 .accommodation h3 {
   text-align: left;
-  color:darkred;
+  color: darkred;
 }
 .accommodation img {
   width: 50%;
@@ -613,7 +648,9 @@ h3 {
 }
 
 /* step */
-.step h1, .travel h1, .step2 h1 {
+.step h1,
+.travel h1,
+.step2 h1 {
   text-align: center;
   background-color: #ffbc14;
   color: #fdfbea;
@@ -672,7 +709,8 @@ h3 {
   margin: auto;
 }
 
-.travel-col img, .travel img {
+.travel-col img,
+.travel img {
   width: 80%;
   display: block;
   margin-left: auto;
@@ -701,7 +739,8 @@ h3 {
   margin: auto;
 }
 
-.step2-col img, .step2 img {
+.step2-col img,
+.step2 img {
   width: 50%;
   display: block;
   margin-left: auto;
@@ -751,7 +790,8 @@ h3 {
   margin: auto;
 }
 
-.live-col img, .live img {
+.live-col img,
+.live img {
   width: 50%;
   display: block;
   margin-left: auto;
@@ -798,7 +838,8 @@ h3 {
 .culture-header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(png/culture.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(png/culture.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -815,7 +856,7 @@ h3 {
   margin: auto;
   margin-top: 100px;
   padding-top: 20px;
-  background-color:white;
+  background-color: white;
   border-radius: 20px;
 }
 

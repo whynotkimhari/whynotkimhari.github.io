@@ -87,13 +87,13 @@ nav img {
   text-decoration: none;
   color: white;
   border: 1px solid white;
-  padding: 12px 34px;
+  padding: 12px 20px;
   font-size: 13px;
   background: transparent;
   position: relative;
   cursor: pointer;
   border-radius: 25px;
-  transition: 1s ease;
+  transition: 1s;
 }
 
 .btn:hover {
@@ -767,6 +767,22 @@ h3 {
   margin: 10px 0;
 }
 
+.live > .asianfood > h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.live > .asianfood > ul {
+  margin-left: 40px;
+}
+
+.live > .asianfood > ul > li > ol {
+  margin-left: 20px;
+}
+
+.live > ul > li > ul {
+  margin-left: 20px;
+}
 
 /* culture */
 .culture-header {

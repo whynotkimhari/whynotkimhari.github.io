@@ -28,9 +28,9 @@ dateEl.onchange = (e) => {
             array[2].innerHTML = `<h2>${format(minutes)} <br> mins</h2>`;
             array[3].innerHTML = `<h2>${format(seconds)} <br> secs</h2>`;
         }
+        dateEl.style.display = 'none';
         contEl.style.display = 'block';
         rsEl.style.display = 'block';
-        dateEl.style.display = 'none';
         setInterval(setTime, 1);
     }
     else {

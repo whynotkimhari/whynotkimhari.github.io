@@ -15,6 +15,15 @@
     font-size: 10px;
 }
 
+@media (max-width: 600px) {
+    .row {
+        display: block;
+    }
+    .col {
+        color: rgb(104, 100, 100);
+    }
+}
+
 
 .container, .restart button {
     display: none;

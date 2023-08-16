@@ -5,4 +5,4 @@
 - Using tfjs to use model on website 
 
 - First idea: sketch web app
-- Following instruction of: [this repo](https://github.com/maneprajakta/Digit_Recognition_Web_App/tree/master) for how to use tfjs
+- Following instruction of: [this repo](https://github.com/maneprajakta/Digit_Recognition_Web_App/tree/master) for how to use tfjs and training model

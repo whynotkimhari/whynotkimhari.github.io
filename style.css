@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
-    font-family: 'Tektur', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,7 +52,7 @@
     align-items: center;
 }
 
-.profile-card > .text {
+.text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@
     font-weight: 400;
 }
 
-.profile-card > .button {
+.button {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -94,7 +94,7 @@
     color: khaki;
 }
 
-.profile-card > .contact {
+.contact {
     display: flex;
     align-items: center;
     margin-top: 25px;
@@ -120,6 +120,115 @@
     color:khaki;
 }
 
-.project-card {
-    display: none;
+/* //////////////////// */
+.big-cont {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.left-cont {
+    text-align: center;
+    width: auto;
+    padding: 50px 50px 50px 0;
+}
+
+.left-cont > .image {
+    margin: 20px 50px 20px;
+}
+
+.left-cont > .image:hover {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+}
+
+.button-wrapper > .button {
+    position: relative;
+    height: auto;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.contact-wrapper > .contact {
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    width: 250px;
+}
+
+.contact-wrapper > .contact > .node {
+    margin: 0 8px;
+}
+
+.contact-wrapper > .contact > .node:hover {
+    background-color: cadetblue;
+    font-size: 14px;
+    color:khaki;
+}
+
+.content {
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.content h2 {
+    margin-top: 40px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content h2 a {
+    text-decoration: none;
+    color: #1772dc;
+}
+
+.content > a {
+    text-decoration: none;
+    color:  #1772dc;
+}
+
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    /* border: 1px solid var(--color-primer-border-contrast); */
+    border-radius: 50%;
+}
+
+.language-sec {
+    padding: 10px 0;
+}
+
+.topic-sec {
+    display: flex;
+}
+
+.topic-sec .topic {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 15px;
+    line-height: 18px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 22px;
+    border: 1px solid #ddf4ff;
+    margin: 5px 10px 0 0;
+    background-color: #ddf4ff;
+    color: #2f82e1;
+    font-weight: 550;
+    transition: 0.65s;
+    cursor: pointer;
+}
+
+.topic:hover {
+    color: white;
+    background-color: #2f82e1;
 }

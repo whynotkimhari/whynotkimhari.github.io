@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="vi">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title>Profile Card</title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
-        <div class="cont">
-            <div class="profile-card">
-                <div class="image">
-                    <img src="photo.jpg" alt="Kim Hai photo" class="profile-image">
-    
-                </div>
-    
-                <div class="text">
-                    <span class="name">Kim Hari</span>
-                    <span class="job">CS Student</span>
-                </div>
-    
-                <div class="button">
-                    <a href="https://www.facebook.com/haribyme/" class="link">
-                        <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="https://www.instagram.com" class="link">
-                        <i class='bx bxl-instagram'></i>
-                    </a>
-                    <a href="https://github.com/whynotkimhari" class="link">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UC_SEvMjNMr-Xd-muFJCkFzw" class="link">
-                        <i class='bx bxl-youtube'></i>
-                    </a>
-                </div>
-    
-                <div class="contact">
-                    <a href="" class="node">Mail me</a>
-                    <button class="node btn-project">Project</button>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="getAvatar()">
+    <div class="cont">
+      <div class="profile-card">
+        <div class="image"></div>
+
+        <div class="text">
+          <span class="name">Kim Hari</span>
+          <span class="job">CS Student</span>
         </div>
-        
-        <div class="project-card">
-            <ul>
-                <li><a href="countdown/index.html">countdown website</a></li>
-                <li><a href="studyinhungary4vnese/index.html">cẩm nang du học hungary 'clone'</a></li>
-                <!-- <li></li> -->
-            </ul>
+
+        <div class="button">
+          <a
+            href="https://www.facebook.com/haribyme/"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com" class="link" target="_blank">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/whynotkimhari"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.youtube.com" class="link" target="_blank">
+            <i class="bx bxl-youtube"></i>
+          </a>
         </div>
-        <script src="script.js"></script>
-    </body>
+
+        <div class="contact">
+          <a href="mailto:htlulem185@gmail.com" class="node">Mail me</a>
+          <a href="projects.html" class="node btn-project">Projects</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

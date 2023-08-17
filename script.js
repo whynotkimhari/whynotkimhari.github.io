@@ -60,7 +60,7 @@ function getRepo() {
                         <span class="repo-language-color" style="background-color: ${colorMapping[element.language]}"></span>
                         <span>${element.language}</span>
                     </div>
-                    <hr>
+                    <div class="hr"></div>
                 </div>`;
             });
             console.log(array);

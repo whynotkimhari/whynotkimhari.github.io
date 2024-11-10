@@ -22,21 +22,21 @@ repository               : "whynotkimhari/whynotkimhari.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Bui Nguyen Kim Hai"
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Budapest/Hungary"
+  employer         : "Eötvös Loránd University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "htlulem185@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -44,13 +44,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/whynotkimhari"
-  kaggle           : "https://www.kaggle.com/buinguyenkimhai"
+  github           : "whynotkimhari"
+  kaggle           : "buinguyenkimhai"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : # Username
-  facebook         : "https://www.facebook.com/haribyme/"
+  facebook         : "haribyme"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/wnkh/"
+  linkedin         : "wnkh"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

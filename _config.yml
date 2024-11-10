@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Bui Nguyen Kim Hai"
   pronouns         : "he/him"  
-  bio              : "2nd-year BSc CS student @Eötvös Loránd University"
+  bio              : "2nd-year BSc CS student @ELTE"
   location         : ["Budapest, Hungary", "HCMC, Vietnam"]
-  employer         : "Eötvös Loránd University"
+  employer         : ["Eötvös Loránd University - ELTE", "VietMed Lab"]
   uri              : # URL
   email            : "htlulem185@gmail.com"
 

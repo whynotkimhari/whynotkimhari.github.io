@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Who am I? Bui Nguyen Kim Hai"
+title: "Who am I?"
 author_profile: true
 redirect_from: 
   - /about/

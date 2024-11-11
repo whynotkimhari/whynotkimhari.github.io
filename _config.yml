@@ -213,16 +213,13 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  datasets:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -247,10 +244,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _datasets
   - scope:
       path: ""
-      type: teaching
+      type: datasets
     values:
       layout: single
       author_profile: true
@@ -265,21 +262,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
       share: true
 

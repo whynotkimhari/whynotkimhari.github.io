@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include archive-single-cv %}
-
 
 
 <!-- Publications

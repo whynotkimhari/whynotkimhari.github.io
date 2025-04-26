@@ -22,11 +22,11 @@ repository               : "whynotkimhari/whynotkimhari.github.io"
 author:
   # Biographic information
   avatar           : "avatar.jpg"
-  name             : "Bui Nguyen Kim Hai"
+  name             : "Bùi Nguyễn Kim Hải"
   pronouns         : "he/him"  
   bio              : "Why not Kim Hari? Why not, Kim Hari?"
   location         : ["Budapest, Hungary", "HCMC, Vietnam"]
-  employer         : ["Eötvös Loránd University - ELTE", "Butopêa", "VietMed Lab"]
+  employer         : ["Eötvös Loránd University", "Butopêa", "VietMed Lab"]
   uri              : # URL
   email            : "buingkimhai@gmail.com"
 

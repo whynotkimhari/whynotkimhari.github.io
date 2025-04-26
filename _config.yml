@@ -21,23 +21,23 @@ repository               : "whynotkimhari/whynotkimhari.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.jpg"
   name             : "Bui Nguyen Kim Hai"
   pronouns         : "he/him"  
-  bio              : "BSc CS student @ELTE"
+  bio              : "Why not Kim Hari? Why not, Kim Hari?"
   location         : ["Budapest, Hungary", "HCMC, Vietnam"]
-  employer         : ["Eötvös Loránd University - ELTE", "VietMed Lab"]
+  employer         : ["Eötvös Loránd University - ELTE", "Butopêa", "VietMed Lab"]
   uri              : # URL
-  email            : "htlulem185@gmail.com"
+  email            : "buingkimhai@gmail.com"
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  arxiv            : https://arxiv.org/search/cs?searchtype=author&query=Bui,+N+K+H
+  googlescholar    : https://scholar.google.com/citations?user=i8k5OBYAAAAJ
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : https://orcid.org/0009-0003-3024-0427
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Nguyen-Kim-Hai-Bui
   scopus           : # URL
 
   # Repositories and software development

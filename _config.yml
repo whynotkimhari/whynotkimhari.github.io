@@ -24,9 +24,9 @@ author:
   avatar           : "avatar.jpg"
   name             : "Bùi Nguyễn Kim Hải"
   pronouns         : "he/him"  
-  bio              : "Why not Kim Hari? Why not, Kim Hari?"
-  location         : ["Budapest, Hungary", "HCMC, Vietnam"]
-  employer         : ["Eötvös Loránd University", "Butopêa", "VietMed Lab"]
+  bio              : "BSc CS @ELTE | Backend Developer Intern @Butopêa | Undergraduate Researcher"
+  location         : ["Budapest, Hungary | HCMC, Vietnam"]
+  employer         : # ["Eötvös Loránd University", "Butopêa", "VietMed Lab"]
   uri              : # URL
   email            : "buingkimhai@gmail.com"
 

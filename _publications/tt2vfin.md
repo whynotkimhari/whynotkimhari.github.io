@@ -1,7 +1,7 @@
 ---
 title: "Transformer Encoder and Multi-features Time2Vec for Financial Prediction"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/tt2vfin
 excerpt: 
 date: 2025-04-18

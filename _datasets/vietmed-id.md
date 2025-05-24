@@ -4,7 +4,7 @@ collection: datasets
 type: "Dataset"
 permalink: /datasets/vietmed-id
 venue: "Hugging Face"
-date: 2025
+date: 2024-09-11
 ---
 
 ## Dataset Details

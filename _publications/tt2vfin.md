@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/tt2vfin
 excerpt: 
 date: 2025-04-18
-venue: 'EUSIPCO'
+venue: 'The 33rd European Signal Processing Conference (EUSIPCO 2025)'
 slidesurl: 
 paperurl: 'https://arxiv.org/abs/2504.13801'
 citation: 'Bui, N.K.H., Chien, N.D., Kovács, P. and Bognár, G., 2025. Transformer Encoder and Multi-features Time2Vec for Financial Prediction. <i>arXiv preprint arXiv:2504.13801.</i>'

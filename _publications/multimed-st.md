@@ -1,7 +1,7 @@
 ---
 title: "MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation"
 collection: publications
-category: conferences
+category: preprints
 permalink: /publication/multimed-st
 excerpt: 
 date: 2025-04-04
